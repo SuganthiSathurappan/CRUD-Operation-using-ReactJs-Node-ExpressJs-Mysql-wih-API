@@ -1,0 +1,153 @@
+.box {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: auto;
+
+}
+
+.butstyle {
+  font-size: 26px;
+  color: white;
+  width: 200px;
+  background-color: #3274d6;
+  border: none;
+  border-radius: 5px;
+}
+
+.fullbody {
+  /* box-sizing: border-box; */
+  font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+  font-size: 16px;
+  background-color: #104733;
+  height: 740px;
+
+}
+
+.loginpadding {
+  padding-top: 150px;
+  padding-left: 480px;
+}
+
+.login {
+  width: 500px;
+  background-color: #ffffff;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  padding-top: 20px;
+}
+
+.login h1 {
+  text-align: center;
+  color: #5b6574;
+  font-size: 24px;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #dee0e4;
+}
+
+.login form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.login form label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  background-color: #3274d6;
+  color: #ffffff;
+}
+
+.login form input[type="password"],
+.login form input[type="text"] {
+  width: 310px;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.login form input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #3274d6;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+  transition: background-color 0.2s;
+}
+
+.login form input[type="submit"]:hover {
+  background-color: #2868c7;
+  transition: background-color 0.2s;
+}
+
+.getdetailsdiv {
+  color: white;
+  /* background-color: white;
+  padding-top: 150px; */
+}
+
+.addContent {
+  width: 500px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: left;
+  font-weight: bold;
+}
+.head
+{
+ 
+  text-align: center;
+ 
+}
+.addempstylebtn
+{
+  width: 150px;
+  
+}
+
+/* Popup style */
+.popup-box {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.popbox {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  height: 500px;
+  margin-top: calc(100vh - 75vh - 20px);
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  border: 3px solid #999;
+  overflow: auto;
+}
+
+.close-icon {
+  content: 'x';
+  cursor: pointer;
+  position: fixed;
+  right: calc(15% - 30px);
+  top: calc(100vh - 85vh - 33px);
+  background: #ededed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+}
